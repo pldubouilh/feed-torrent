@@ -1,0 +1,24 @@
+{
+  "name": "feed-torrent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "tape": "^4.9.0"
+  },
+  "dependencies": {
+    "bittorrent-dht": "^8.2.0",
+    "create-torrent": "^3.30.0",
+    "interval-promise": "^1.1.1",
+    "simple-sha1": "^2.1.0",
+    "supercop.js": "^2.0.1",
+    "webtorrent": "^0.98.24",
+    "yargs": "^11.0.0"
+  }
+}
